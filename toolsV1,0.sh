@@ -264,7 +264,7 @@ echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
 echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
 echo $red"_______________________________________________"
 echo ""
-echo $blue"Masukkan Web:"
+echo $blue"Masukkan Web/IP:"
 read Web
 ping $Web
 fi
