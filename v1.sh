@@ -918,6 +918,10 @@ git clone https://github.com/Techzindia/admin_penal
 cd admin_penal
 chmod 777 admin_panel_finder.py
 python2 admin_panel_finder
+ls
+cd admin_penal
+ls
+python2 admin_panel_finder.py
 fi		
 
 if [ $akm = 43 ] || [ $akm = 43 ]
