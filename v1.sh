@@ -97,10 +97,7 @@ echo $red"-----------------------------"
 echo $cyan"34).Nuyul caping"
 echo ""
 echo $blue"----------[BRUTEFORCE]----------"
-echo $cyan"35).Brute force fb"
-echo $red"-----------------------------"
-echo $cyan"36).Brute force email"
-echo ""
+echo $cyan"35).Bruteforce 
 echo $blue"----------[HACKWIFI]----------"
 echo $cyan"37).Bobol WiFi (root accees)"
 echo $red"-----------------------------"
@@ -109,8 +106,6 @@ echo $red"-----------------------------"
 echo ""
 echo $blue"----------[INSTALLER]----------"
 echo $cyan"39).Install striker"
-echo $red"-----------------------------"
-echo $cyan"40).Install SANTET-ONLINE"
 echo $red"-----------------------------"
 echo $cyan"41).Install metasploit"
 echo $red"-----------------------------"
@@ -748,27 +743,6 @@ apt install git
 git clone https://github.com/anggaid14/caping
 cd caping
 php run.php
-fi
-
-if [ $akm = 35 ] || [ $akm = 35 ]
-then
-clear
-echo $red"_______________________________________________"
-echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
-echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
-echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
-echo $red"_______________________________________________"
-echo ""
-apt update
-apt upgrade
-apt install python2
-apt install python2-dev
-pip2 install mechanize
-curl -S https://pastebin.com/raw/yUpg8zsv --output fb.py
-python2 fb.py
-fi	
 
 if [ $akm = 36 ] || [ $akm = 36 ]
 then
