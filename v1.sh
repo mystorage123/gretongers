@@ -850,30 +850,8 @@ git clone https://github.com/UltimateHackers/Striker
 cd Striker
 pip2 install -r requirements.txt
 python2 striker.py
-fi	  
-    
-if [ $akm = 40 ] || [ $akm = 40 ]
-then
-clear
-echo $red"_______________________________________________"
-echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
-echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
-echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
-echo $red"_______________________________________________"
-echo ""
-pkg update
-pkg upgrade
-pkg install python2
-pkg install git
-git clone https://github.com/Gameye98/santet-online
-ls
-cd santet-online
-ls
-python2 santet.py
 fi
-	    
+
 if [ $akm = 41 ] || [ $akm = 41 ]
 then
 clear
