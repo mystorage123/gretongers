@@ -97,7 +97,7 @@ echo $red"-----------------------------"
 echo $cyan"33).Nuyul caping"
 echo ""
 echo $blue"----------[BRUTEFORCE]----------"
-echo $cyan"34).Bruteforce email
+echo $cyan"34).Bruteforce email"
 echo ""
 echo $blue"----------[HACKWIFI]----------"
 echo $cyan"35).Bobol WiFi (root accees)"
