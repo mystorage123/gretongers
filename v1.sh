@@ -74,7 +74,6 @@ echo $cyan"22).DDoS attack by liteddos"
 echo $red"-----------------------------"
 echo $cyan"23).DDoS attack by torshammer"
 echo $red"-----------------------------"
-echo $cyan"24).DDoS attack by santri"
 echo ""
 echo $blue"----------[SPAMMING]----------"
 echo $cyan"25).Spamming"
@@ -539,28 +538,6 @@ git clone https://github.com/dotfighter/torshammer.git
 ls
 cd torshammer
 python2 torshammer.py
-fi
-
-if [ $akm = 24 ] || [ $akm = 24 ]
-then
-clear
-echo $red"_______________________________________________"
-echo $green" yyyy   yyyy  GGGGGGGGGGG  mmmmmmmmmmmmmmmm"
-echo $green" yyyy   yyyy  GGGG         mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGG   GGGG  mmmm  mmmm  mmmm"
-echo $green"        yyyy  GGGG     GG  mmmm  mmmm  mmmm"
-echo $green" yyyyyyyyyyy  GGGGGGGGGGG  mmmm  mmmm  mmmm"
-echo $red"_______________________________________________"
-echo ""
-pkg update && pkg upgrade
-pkg install git
-pkg install python2
-git clone https://github.com/yunusrespector/santrigans
-cd Gwgansv1
-python2 Gwgansv1.py
-cd santrigans
-ls
-python2 Gwgansv1.py
 fi
 
 if [ $akm = 25 ] || [ $akm = 25 ]
