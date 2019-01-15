@@ -744,6 +744,7 @@ apt install git
 git clone https://github.com/anggaid14/caping
 cd caping
 php run.php
+fi
 
 if [ $akm = 34 ] || [ $akm = 34 ]
 then
